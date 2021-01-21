@@ -1,0 +1,41 @@
+/*
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    font-family: Montserrat, sans-serif;
+    background-color: rgb(46, 100, 100);
+    margin: 10px;
+    padding: 10px;
+}
+.second-nav {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+}
+.second-nav li {
+    flex-grow: 50%;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+ul {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+li {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
