@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    border: 1px grey solid;
+}
+header,
+main,
+footer {
+    grid-column-end: span 2;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+li {
+    list-style: none;
+}
+.skills p,
+.objective p {
+    margin: 0 100px 0 100px
+}
+p {
+    text-align: justify;
+    margin: 0 20px 0 20px;
+}
