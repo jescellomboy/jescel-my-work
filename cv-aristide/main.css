@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -29,3 +30,15 @@ p {
     text-align: justify;
     margin: 0 20px 0 20px;
 }
+
+
+/*
+@media (min-width: 480px) {
+
+}
+@media (min-width: 700px) {
+
+}
+@media (min-width: 1000px) {
+
+}*/
